@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: rgb(40, 39, 39);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem; 
+    background:linear-gradient(135deg white blue);
+
+}
+.card{
+    padding: 1rem;
+    flex-direction: column;
+    background-color:beige;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+
+}
+.card h1{
+    text-align: center;
+}
+.card h3{
+    margin-top: 20px;
+    margin-left: 1rem;
+}
+.card .total-balance{
+    margin-top: 0px;
+    margin-left: 1rem;
+    
+}
+.total{
+    display: flex;
+    justify-content: center;
+    
+}
+.income{
+    margin-top: 10px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 4rem;
+    width: 7rem;
+    
+    background-color: white;
+    /* border: 0.5px solid black; */
+}
+.expense{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 4rem;
+    width: 7rem;
+    
+    background-color: white;
+}
+.income span{
+    color: green;
+}
+.expense span{
+    color: red;
+}
+.transaction{
+    font: bolder;
+    text-align: left;
+    margin-left: 1rem;
+}
+.line{
+    margin: 4px 1rem 0;
+    width: 90%;
+    height: 3px;
+    background-color: black;
+}
+.transaction-name p{
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+.transaction-name input{
+    margin-left: 1rem;
+    width: 90%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.transaction-amount p{
+    margin-left: 1rem;
+    margin-top: 5px;
+}
+.transaction-amount input{
+    margin-left: 1rem;
+    width: 90%;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+.submit{
+    margin-left: 1rem;
+    margin-top: 10px;
+    width: 90%;
+    padding:8px;
+    color: white;
+    background-color: blueviolet;
+    font-size: large;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.history{
+    width: 90%;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+
+
+}
+.all-history{
+    margin-top: 5px;
+    max-height: 100px;
+    overflow: auto;
+}
