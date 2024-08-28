@@ -45,4 +45,3 @@ For any questions or feedback, please contact [Hustler004](agamagarwal004@gmail.
 
 ---
 
-Feel free to adjust any sections to better fit your project details!
