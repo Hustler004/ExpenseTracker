@@ -1,7 +1,7 @@
 
 # [Expense Tracker](https://66ced0c224c7df039fc9a170--trackincomeandexpenses.netlify.app/)
 
-A basic expense tracker that keeps record of you daily expenses and income built using HTML, CSS, and JavaScript.
+A basic expense tracker that keeps record of your daily expenses and income, built using HTML, CSS, and JavaScript.
 
 ## Overview
 
@@ -12,7 +12,7 @@ This project features a simple, user-friendly expense tracker implemented with:
 
 ## Features
 
-- One can enter expense amount and detail, same for income as well
+- One can enter expense amount and detail.(same for income as well)
 - Overall expenditure analysis with seperate analysis of income as well as expenditure
 - history of expenses
 
